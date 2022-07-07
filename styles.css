@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    padding: 20px auto;
+}
+.left-section{
+background-color:#555555;
+grid-column: span 1;
+}
+.right-section{
+grid-column: span 1/ span 2;
+    background-color:rgba(68, 19, 19, 0.345);
+}
+.left-content{
+    padding: 1rem;  
+}
+.profile-img{
+    display:block;
+    justify-items: center;
+    margin: auto;
+    border: solid 5px white;
+    border-radius: 30%;
+    width: 60%;
+}
+.social{
+    color:white;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    color: white;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.social{
+    color:white;
+    display:flex;
+    justify-content: space-around;
+}
+.personal{
+    margin-left: 5px;
+    color:white;
+
+}
+.skills{
+text-align: center;
+font-size: 0.75;
+text-align: center;
+text-transform: uppercase;
+padding-top: 1rem;
+padding-bottom: 0.5rem;
+color: white;
+padding-left: 0.5rem;
+}
+.skill-name{
+font-size: 0.65;
+font-weight: 0.65;
+text-align: left;
+padding-bottom: 00.5rem;
+color: white;   
+}
+.progress-bar{
+    border:1px solid white;
+    height:4px;
+    
+}
+.skill-progress{
+    padding-bottom: 0.5rem;
+}
+.fa-facebook{
+    color: white;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-github{
+    color: black;
+}
+.fa-instagram{
+    color: rgb(207, 14, 14);
+}
+.fa-envelope-o{
+    color: blue;
+}
+.fa-phone{
+    color: green;
+}
+.fa-map-marker{
+    color: rgb(159, 40, 40);
+}
+@media screen and (max-width:673px){
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+      }
+}
+.right-section{
+padding-top: 2rem;
+padding-bottom: 2rem;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700px;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.detail{
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    column-gap: 10px;
+}
+.about-me{
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.sub-title{
+    text-transform: uppercase;
+}

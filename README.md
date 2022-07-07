@@ -1,2 +1,2 @@
 # Responsive-resume
-This is Newton school project of responsive resume.
+Responsive resume using css grid
