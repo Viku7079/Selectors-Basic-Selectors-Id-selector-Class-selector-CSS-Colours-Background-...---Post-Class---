@@ -76,11 +76,18 @@ padding-bottom: 0.5rem;
 color: white;
 padding-left: 0.5rem;
 }
+.skills-title {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+
+}
 .skill-name{
 font-size: 0.65;
 font-weight: 0.65;
 text-align: left;
-padding-bottom: 00.5rem;
+padding-bottom: 0.5rem;
 color: white;   
 }
 .progress-bar{
